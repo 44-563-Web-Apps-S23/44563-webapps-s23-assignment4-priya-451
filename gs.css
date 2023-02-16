@@ -1,22 +1,23 @@
-p.speech{
+.speech{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     font: 21px;
 }
-p.direction{
+.direction{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color:lightpink;
     color: black;
     font: 21px;
 }
-p.direction:hover{
+.direction:hover{
     background-color: lightskyblue;
     color: cadetblue;
 }
-.BAUER{
+.sir{
     color: coral;
+    background-color: aquamarine;
 }
-.LANE{
+.lady{
     color:aqua ;
 }
 table {
@@ -43,32 +44,35 @@ tr:nth-child(odd) {
     background-color:azure;
 }
 
-.LANE:hover{
-    text-shadow: 1px 4px 1px rgba(1, 2, 14, 0.6);
+.sir:hover{
+    text-shadow: 1px 1px;
     filter: blur(1px);
     border: 1px solid;
 }
-.BAUER:hover{
+.lady:hover{
     text-shadow: 1px 4px 1px rgba(1, 2, 14, 0.6);
-    filter: blur(1px);
+    filter: blur(0.3px);
     border: 1px solid;
+    border-style: dotted;
 }
 ul.navbar-horizontal{
-    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding:0;
 }
-ul{
-    display: flex;
-    margin: 20px;
-    border: 0cm;
+ul.navbar-horizontal li{
+   float:left;
+   color:black;
+   background-color: blue;
 
   }
-  li{
-    margin-left: 20px;
-    list-style: none;
-    color: blue;
+  ul.navbar-horizontal a{
+    display:block;
+    padding:8px
   }
-  li a{
-    text-decoration: none;
+  ul.navbar-horizontal a:hover{
+    background-color: blueviolet;
+    color:black
   }
 
 
