@@ -19,7 +19,57 @@ p.direction:hover{
 .LANE{
     color:aqua ;
 }
+table {
+    font-family:'Gill Sans';
+    border: 2px;
+    text-align: center;
+    width:50%;
+    border-collapse:collapse;
+    border-color: black;
+}
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+    border-color: black;
+}
+th{
+    padding: 5px;
+    text-align: center;
+    border: 1.5px solid #dddddd;
+    border-color: black;
+}
+tr:nth-child(odd) {
+    background-color:azure;
+}
 
+.LANE:hover{
+    text-shadow: 1px 4px 1px rgba(1, 2, 14, 0.6);
+    filter: blur(1px);
+    border: 1px solid;
+}
+.BAUER:hover{
+    text-shadow: 1px 4px 1px rgba(1, 2, 14, 0.6);
+    filter: blur(1px);
+    border: 1px solid;
+}
+ul.navbar-horizontal{
+    display: flex;
+}
+ul{
+    display: flex;
+    margin: 20px;
+    border: 0cm;
+
+  }
+  li{
+    margin-left: 20px;
+    list-style: none;
+    color: blue;
+  }
+  li a{
+    text-decoration: none;
+  }
 
 
 
