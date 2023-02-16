@@ -1,0 +1,32 @@
+p.speech{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font: 21px;
+}
+p.direction{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:lightpink;
+    color: black;
+    font: 21px;
+}
+p.direction:hover{
+    background-color: lightskyblue;
+    color: cadetblue;
+}
+.BAUER{
+    color: coral;
+}
+.LANE{
+    color:aqua ;
+}
+
+
+
+
+
+
+
+
+
+
+
